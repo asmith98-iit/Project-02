@@ -64,8 +64,20 @@ img
 	margin: 0 auto;
 }
 
+h3, h4
+{
+	text-align: center;
+}
 
+body.resume > h3, body.resume > h4
+{
+	text-align: left;
+}
 
+body.resume > h4.email, body.resume > h3.linkedin
+{
+	text-align: center;
+}
 
 
 
