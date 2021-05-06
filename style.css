@@ -5,6 +5,18 @@
   src: url(COMPUTERAMOK.ttf);
 }
 
+
+/* Color Pallet
+
+	#D7D4DD
+	#838BC2
+	#715C8C
+	#333F63
+
+ */
+
+
+
 body
 {
 	
@@ -45,12 +57,33 @@ body.Computer_Simulation > h1
 	
 	font-family: Computer_Amok;
 	
+	line-height: 1.2;
+	
+	border: 8px solid #838BC2;
+	border-style: groove;
+	border-radius: 5px;
+	
 }
 
 
+p
+{
+	color: #D7D4DD;
+	border-radius: 20px;
+	background:	linear-gradient(#715C8C, #333F63);
+	padding: 10px;
+	line-height: 2;
+}
+
+
+body.Computer_Simulation > p
+{
+	
+}
+
 video 
 {
-  width: 50%;
+  width: 75%;
   height: auto;
 	display: block;
 	margin: 0 auto;
@@ -58,7 +91,7 @@ video
 
 img
 {
-  width: 50%;
+  width: 75%;
   height: auto;
 	display: block;
 	margin: 0 auto;
