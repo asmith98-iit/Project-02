@@ -1,4 +1,10 @@
 
+@font-face 
+{
+  font-family: Computer_Amok;
+  src: url(COMPUTERAMOK.ttf);
+}
+
 body
 {
 	
@@ -11,6 +17,33 @@ body
 	margin-bottom: 12.5%;
 	margin-right: 12.5%;
 	margin-left: 12.5%;
+	
+}
+
+body.Computer_Simulation
+{
+	
+	
+}
+
+body.resume
+{
+	
+	font-family: Georgia, Times New Roman, Arial;
+	
+}
+
+h1
+{
+	
+	font-size: 48pt;
+	text-align: center;
+}
+
+body.Computer_Simulation > h1
+{
+	
+	font-family: Computer_Amok;
 	
 }
 
@@ -30,3 +63,9 @@ img
 	display: block;
 	margin: 0 auto;
 }
+
+
+
+
+
+
