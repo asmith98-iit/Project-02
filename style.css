@@ -29,17 +29,11 @@ body
 	text-align: left;
 	
 	margin-top: 5%;
-	margin-bottom: 12.5%;
-	margin-right: 12.5%;
-	margin-left: 12.5%;
+	margin-bottom: 10%;
+	margin-right: 10%;
+	margin-left: 10%;
 	
 	font-family: Georgia, Times New Roman, Arial;
-}
-
-body.Computer_Simulation
-{
-	
-	
 }
 
 h1
@@ -117,14 +111,49 @@ body.resume > h4.email, body.resume > h3.linkedin
 	
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	position: sticky;
+	top: 0;
+	line-height: 1.5;
 	
 }
 
 .navbar > p
 {
-	
+	padding-top: 1.25em;
 	text-align: center;
+	font-size: 1.5em;
 	border-radius: 2em 0em 0em 2em;
 	
 }
 
+.navbar > ul, .navbar > li
+{
+	font-size: 1.5em;
+	border-radius: 2em 0em 0em 2em;
+}
+
+.navbar > ul
+{
+	list-style-type: none;
+	border-radius: 0em 2em 2em 0em;
+	background: linear-gradient(#715C8C, #333F63);
+	line-height: 2;
+}
+
+.navbar > li
+{
+	
+	
+	
+}
+
+
+a:link 
+{
+  color: #D7D4DD;
+}
+
+a:visited 
+{
+  color: #D7D4DD;
+}
