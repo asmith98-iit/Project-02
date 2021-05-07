@@ -1,4 +1,5 @@
 
+
 @font-face 
 {
   font-family: Computer_Amok;
@@ -58,7 +59,7 @@ body
 	
 	text-align: left;
 	
-	
+	line-height: 2;
 	
 	font-family: Georgia, Times New Roman, Arial;
 }
@@ -74,6 +75,12 @@ h1
 	animation: fadein 1s;
 	font-size: 400%;
 	text-align: center;
+}
+
+body > *
+{
+	margin-bottom: 1.25%;
+	margin-top: 1.25%;
 }
 
 body.Computer_Simulation > h1
@@ -125,9 +132,23 @@ img
 	border-radius: 1em;
 }
 
+h2
+{
+	font-size: 175%;
+}
+
+
 h3, h4
 {
+	text-indent:1em;
 	text-align: center;
+	font-size: 125%;
+}
+
+ul
+{
+	padding-left: 2em;
+	
 }
 
 body.resume > h3, body.resume > h4
@@ -232,12 +253,10 @@ a:hover
 	color: #8ebf42;
 }
 
-li:hover
+ul.Nav > li:hover
 {
 	margin-right: 0.5em;
 	margin-left: 0.5em;
-	
-	
 	
 	padding-left: 0.5em;
 	border-radius: 0.5em;
