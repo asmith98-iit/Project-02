@@ -61,7 +61,7 @@ body
 	
 	line-height: 2;
 	
-	font-family: Georgia, Times New Roman, Arial;
+	font-family: Georgia, "Times New Roman", Arial;
 }
 
 body > *
@@ -90,7 +90,7 @@ body.Computer_Simulation > h1
 	
 	line-height: 1.2;
 	
-	border: 50% solid #838BC2;
+	border: 0.07em solid #838BC2;
 	border-style: ridge;
 	border-radius: 0.5em;
 	background: linear-gradient(135deg, #D7D4DD,#838BC2);
